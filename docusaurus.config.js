@@ -18,8 +18,8 @@ const mermaidConfig = {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "WEBGL2 勉強会のドキュメント",
+  tagline: "初めてのWEBGL2の読書会活動記録",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -30,8 +30,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "wac2w", // Usually your GitHub org/user name.
+  projectName: "WEBGL2_Docss", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -40,8 +40,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "ja",
+    locales: ["ja"],
   },
 
   presets: [
@@ -53,15 +53,15 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+            // "",
         },
         blog: {
-          showReadingTime: true,
+          // showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+            // "",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -76,9 +76,9 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "WEBGL2 Document",
         logo: {
-          alt: "My Site Logo",
+          alt: "WEBGL2 Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -86,9 +86,9 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "読書会記録",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "勉強会について", position: "left" },
         ],
       },
       footer: {
@@ -98,33 +98,37 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "読書会記録",
                 to: "/docs/intro",
               },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "読書会記録2",
+                to: "/docs2/intro",
               },
             ],
           },
+          // {
+          //   title: "Community",
+          //   items: [
+          //     {
+          //       label: "Stack Overflow",
+          //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
+          //     },
+          //     {
+          //       label: "Discord",
+          //       href: "https://discordapp.com/invite/docusaurus",
+          //     },
+          //     {
+          //       label: "Twitter",
+          //       href: "https://twitter.com/docusaurus",
+          //     },
+          //   ],
+          // },
           {
             title: "More",
             items: [
               {
-                label: "Blog",
+                label: "勉強会について",
                 to: "/blog",
               },
               {
