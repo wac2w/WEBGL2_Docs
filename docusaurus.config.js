@@ -30,8 +30,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "wac2w", // Usually your GitHub org/user name.
-  projectName: "WEBGL2_Docss", // Usually your repo name.
+  organizationName: "WAC2W", // Usually your GitHub org/user name.
+  projectName: "WEBGL2_Docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
