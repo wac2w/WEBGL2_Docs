@@ -101,10 +101,6 @@ const config = {
                 label: "読書会記録",
                 to: "/docs/intro",
               },
-              {
-                label: "読書会記録2",
-                to: "/docs2/intro",
-              },
             ],
           },
           // {
