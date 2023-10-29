@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Chapter 1: イントロダクション": {
+    "message": "Chapter 1: イントロダクション",
+    "description": "The label for category Chapter 1: イントロダクション in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Chapter 1: イントロダクション.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Chapter 1: イントロダクション in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Chapter 2: レンダリング": {
+    "message": "Chapter 2: レンダリング",
+    "description": "The label for category Chapter 2: レンダリング in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Chapter 3: 光源": {
+    "message": "Chapter 3: 光源",
+    "description": "The label for category Chapter 3: 光源 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Chapter 3: 光源.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Chapter 3: 光源 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Chapter 4: カメラ": {
+    "message": "Chapter 4: カメラ",
+    "description": "The label for category Chapter 4: カメラ in sidebar tutorialSidebar"
+  }
+}
